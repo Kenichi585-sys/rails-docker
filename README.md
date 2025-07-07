@@ -1,24 +1,15 @@
 # README
+アプリの環境構築方法
+git cloneコマンドを使って自分のローカルにフォルダの内容をコピーします。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+まずGitHub上でrails-dockerフォルダのトップ画面を表示してURLをコピーします。
+次にターミナルでgit clone <コピーしたURL.git>を実行します。
+これでローカルにコピーされ、作業が可能になります。
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+このアプリの使い方
+１、トップページの「New Task」をクリックすると、タスクの名前と内容を作成できる画面に遷移します。
+２、タスクの名前と内容を好きに入力し、「Create Task」をクリックすると、タスクが作成できます。
+３、「Show this task」でタスクの詳細確認と削除ができる画面に遷移します。
+４、「Destroy this task」をクリックすると、タスクを削除できます。
+５、「Edit this task」をクリックすると、タスクの内容を編集できます。
+６、「Back to tasks」でこれまでに作成したタスクの一覧を閲覧できます。
